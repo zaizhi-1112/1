@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>嫡了马 - 职场情绪宣泄站</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe&family=Ma+Shan+Zheng&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            overflow: hidden;
+            background: #f4f1ea;
+        }
+        .font-playful { font-family: 'ZCOOL KuaiLe', cursive; }
+        .font-brush { font-family: 'Ma Shan Zheng', cursive; }
+        .collage-bg {
+            background-image: 
+                radial-gradient(#d1d5db 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(244, 241, 234, 0.8), rgba(244, 241, 234, 0.8));
+            background-size: 20px 20px, 100% 100%;
+        }
+        .paper-texture {
+            background-image: url('https://www.transparenttextures.com/patterns/p6.png');
+        }
+        @keyframes whistle-float {
+            0%, 100% { transform: translateY(0) rotate(0); }
+            50% { transform: translateY(-5px) rotate(5deg); }
+        }
+        .animate-whistle {
+            animation: whistle-float 3s ease-in-out infinite;
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/"
+  }
+}
+</script>
+</head>
+<body>
+    <div id="root"></div>
+</body>
+</html>
